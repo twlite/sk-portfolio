@@ -1,91 +1,61 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from './page.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import { About } from '@/components/About';
+import { Hero } from '@/components/Hero';
+import { Navbar } from '@/components/Navbar';
+import Link from 'next/link';
+import { SiTypescript, SiTailwindcss, SiReact, SiVisualstudiocode, SiGit, SiVercel } from 'react-icons/si';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div>
+      <Navbar />
+      <main className="mt-5 lg:mt-[8rem] flex justify-around">
+        <div className="px-4">
+          <Hero />
+          <hr className="text-gray opacity-20 mt-10" />
+          <div className="my-10">
+            <p className="text-light font-semibold text-lg">Technologies I use</p>
+            <div className="flex space-x-3 mt-2">
+              <Link href="https://typescriptlang.org" target="_blank">
+                <SiTypescript
+                  title="TypeScript"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-blue-400"
+                />
+              </Link>
+              <Link href="https://tailwindcss.com" target="_blank">
+                <SiTailwindcss
+                  title="TailwindCSS"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-sky-500"
+                />
+              </Link>
+              <Link href="https://reactjs.org" target="_blank">
+                <SiReact
+                  title="React"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-sky-500"
+                />
+              </Link>
+              <Link href="https://code.visualstudio.com" target="_blank">
+                <SiVisualstudiocode
+                  title="Visual Studio Code"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-sky-500"
+                />
+              </Link>
+              <Link href="https://git-scm.com" target="_blank">
+                <SiGit
+                  title="Git"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-red"
+                />
+              </Link>
+              <Link href="https://vercel.com" target="_blank">
+                <SiVercel
+                  title="Vercel"
+                  className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-light"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-        <div className={styles.thirteen}>
-          <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
-        </div>
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={inter.className}>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p className={inter.className}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
+      </main>
+      <About />
+    </div>
+  );
 }
