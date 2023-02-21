@@ -5,6 +5,7 @@ export const twitterName = process.env.NEXT_PUBLIC_TWITTER!;
 export const discordId = process.env.NEXT_PUBLIC_DISCORD_ID!;
 export const country = process.env.NEXT_PUBLIC_COUNTRY_NAME!;
 export const brandName = process.env.NEXT_PUBLIC_BRAND_NAME!;
+export const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL!;
 export const websiteDescription = `Hi, my name is ${fullName}. I am a full stack developer from ${country} who also loves doing open source projects.`;
 export const navLinks = [
   { name: 'Home', link: '/' },
@@ -13,3 +14,23 @@ export const navLinks = [
   { name: 'Contact', link: '/contact' },
   { name: 'Resume', link: '/resume' }
 ] as const;
+
+export const containerVariant = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2
+    }
+  }
+};
+
+export const itemVariant = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1
+  }
+};

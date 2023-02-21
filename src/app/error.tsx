@@ -4,7 +4,7 @@ import { Button } from '@/components/Button';
 import { Navbar } from '@/components/Navbar';
 import { HiXCircle } from 'react-icons/hi';
 
-export default function Error({ error, reset }: { error: Error; reset: () => void }) {
+export default function ErrorPage({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <div>
       <Navbar />

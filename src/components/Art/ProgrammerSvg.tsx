@@ -1,3 +1,5 @@
+import { twMerge } from 'tailwind-merge';
+
 interface IProps {
   className?: string;
 }
@@ -7,7 +9,7 @@ export function ProgrammerSvg(props: IProps) {
     <svg
       width="520"
       height="300"
-      className={props.className}
+      className={twMerge('bounce', props.className)}
       viewBox="0 0 533 369"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

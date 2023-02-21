@@ -1,5 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import { twMerge } from 'tailwind-merge';
+import { motion } from 'framer-motion';
+import { itemVariant } from '@/utils/config';
 
 interface IProps extends React.PropsWithChildren {
   variant?: 'primary' | 'secondary' | 'info';
@@ -21,7 +25,8 @@ export function Button(props: IProps) {
 
   if (!link)
     return (
-      <button
+      <motion.button
+        variants={itemVariant}
         onClick={onClick}
         className={twMerge(
           className,
@@ -30,21 +35,22 @@ export function Button(props: IProps) {
         )}
       >
         {children}
-      </button>
+      </motion.button>
     );
 
   return (
-    <Link
-      onClick={onClick}
-      href={link}
-      target={newtab ? '_blank' : undefined}
+    <motion.button
+      variants={itemVariant}
       className={twMerge(
         className,
         rounded ? 'rounded-lg' : '',
         'font-semibold cursor-pointer p-3 transition ease-in-out duration-200'
       )}
+      onClick={onClick}
     >
-      {children}
-    </Link>
+      <Link href={link} target={newtab ? '_blank' : undefined}>
+        {children}
+      </Link>
+    </motion.button>
   );
 }

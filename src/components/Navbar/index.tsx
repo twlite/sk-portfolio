@@ -1,6 +1,6 @@
 'use client';
 
-import { navLinks } from '@/utils/config';
+import { itemVariant, navLinks } from '@/utils/config';
 import { usePathname } from 'next/navigation';
 import { NavbarBrand } from './NavbarBrand';
 import { NavbarLink, NavbarLinkMobile } from './NavLink';
@@ -8,7 +8,12 @@ import { HiMenu, HiX } from 'react-icons/hi';
 import Link from 'next/link';
 import { SiDiscord, SiGithub } from 'react-icons/si';
 import { useState } from 'react';
-import { twMerge } from 'tailwind-merge';
+import { motion } from 'framer-motion';
+
+const variants = {
+  open: { opacity: 1, x: 0 },
+  closed: { opacity: 0, x: '-100%' }
+};
 
 export function Navbar() {
   const path = usePathname();
@@ -41,11 +46,15 @@ export function Navbar() {
           )}
         </div>
       </nav>
-      <div className={navOpen ? 'h-screen bg-darkGray flex flex-col p-3 space-y-3' : 'hidden'}>
+      <motion.div
+        animate={navOpen ? 'open' : 'closed'}
+        variants={variants}
+        className={navOpen ? 'h-screen bg-darkGray flex flex-col p-3 space-y-3' : 'hidden'}
+      >
         {navLinks.map((link, i) => {
           return <NavbarLinkMobile key={i} {...link} active={path === link.link} />;
         })}
-      </div>
+      </motion.div>
     </>
   );
 }

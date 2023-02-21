@@ -1,19 +1,36 @@
-import { country, fullName } from '@/utils/config';
+'use client';
+
+import { country, fullName, itemVariant } from '@/utils/config';
 import { FiFileText } from 'react-icons/fi';
 import { ProgrammerSvg } from '../Art/ProgrammerSvg';
 import { Button } from '../Button';
+import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
     <div className="lg:flex lg:flex-row lg:justify-around my-3">
       <div className="lg:hidden">
-        <ProgrammerSvg className="w-full" />
+        <motion.div
+          animate={{ y: 10 }}
+          transition={{
+            delay: 0.5,
+            y: { duration: 1 },
+            default: { ease: 'linear' },
+            repeat: 0
+          }}
+        >
+          <ProgrammerSvg className="w-full" />
+        </motion.div>
       </div>
       <div>
         <div className="space-y-2">
           <p className="text-gray text-2xl font-semibold">hello!</p>
           <h1 className="text-light text-3xl lg:text-5xl font-bold">
-            I{"'"}m <span className="text-red">{fullName}</span>,
+            I{"'"}m{' '}
+            <motion.span className="text-red" variants={itemVariant}>
+              {fullName}
+            </motion.span>
+            ,
           </h1>
           <p className="text-gray text-lg lg:text-2xl lg:max-w-[60%]">
             a <span className="font-bold text-light">full-stack developer</span> from{' '}
@@ -37,3 +54,5 @@ export function Hero() {
     </div>
   );
 }
+
+export * from './Technologies';
