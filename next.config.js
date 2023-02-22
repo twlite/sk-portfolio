@@ -24,11 +24,6 @@ const nextConfig = {
         source: '/discord',
         permanent: true,
         destination: `https://discord.com/users/${process.env.NEXT_PUBLIC_DISCORD_ID}`
-      },
-      {
-        source: '/blog',
-        permanent: true,
-        destination: process.env.NEXT_PUBLIC_BLOG_URL
       }
     ];
   }
