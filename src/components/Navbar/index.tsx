@@ -1,6 +1,6 @@
 'use client';
 
-import { itemVariant, navLinks } from '@/utils/config';
+import { navLinks } from '@/utils/config';
 import { usePathname } from 'next/navigation';
 import { NavbarBrand } from './NavbarBrand';
 import { NavbarLink, NavbarLinkMobile } from './NavLink';

@@ -3,7 +3,7 @@
 import { Navbar } from '@/components/Navbar';
 import { motion } from 'framer-motion';
 
-export default function Contact() {
+export default function Projects() {
   return (
     <motion.div initial="hidden" animate="visible">
       <Navbar />

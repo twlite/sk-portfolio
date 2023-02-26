@@ -7,6 +7,9 @@ export const country = process.env.NEXT_PUBLIC_COUNTRY_NAME!;
 export const brandName = process.env.NEXT_PUBLIC_BRAND_NAME!;
 export const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL!;
 export const websiteDescription = `Hi, my name is ${fullName}. I am a full stack developer from ${country} who also loves doing open source projects.`;
+export const themeColor = '#ED653A';
+export const favIcon = '/favicon.ico';
+
 export const navLinks = [
   { name: 'Home', link: '/' },
   { name: 'Projects', link: '/projects' },
