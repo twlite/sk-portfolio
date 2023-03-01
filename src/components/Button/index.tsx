@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { itemVariant } from '@/utils/config';
 
 interface IProps extends React.PropsWithChildren {
-  variant?: 'primary' | 'secondary' | 'info';
+  variant?: 'primary' | 'secondary' | 'info' | 'gray';
   rounded?: boolean;
   link?: string;
   newtab?: boolean;
@@ -21,7 +21,9 @@ export function Button(props: IProps) {
       ? 'bg-red hover:bg-darkRed text-white'
       : variant === 'secondary'
       ? 'bg-transparent text-light hover:text-white'
-      : 'bg-darkGray text-light hover:text-white hover:bg-dark';
+      : variant === 'info'
+      ? 'bg-darkGray text-light hover:text-white hover:bg-dark'
+      : 'bg-gray text-white hover:text-light';
 
   if (!link)
     return (

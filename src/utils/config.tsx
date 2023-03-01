@@ -1,4 +1,6 @@
 // prettier-ignore
+import { Button } from "@/components/Button";
+import { MdWeb } from 'react-icons/md';
 import {
   SiGit,
   SiReact,
@@ -15,8 +17,9 @@ import {
   SiCloudflare,
   SiMongodb,
   SiJest,
-  SiPostgresql
-} from "react-icons/si";
+  SiPostgresql,
+  SiGithub
+} from 'react-icons/si';
 
 export const githubName = process.env.NEXT_PUBLIC_GITHUB_USERNAME!;
 export const fullName = process.env.NEXT_PUBLIC_FULL_NAME!;
@@ -238,6 +241,171 @@ export const WorkExp = [
           </div>
         </div>
       </>
+    )
+  }
+];
+
+export const Projects = [
+  {
+    name: 'sk-portfolio',
+    description: 'My personal website built with Next.js and TailwindCSS',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/${githubName}/sk-portfolio`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://dhunganakunjan.com.np`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'nobu',
+    description: 'A cross platform web browser for developers',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/neplextech/nobu`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://github.com/neplextech/nobu`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'discord-player',
+    description: 'A powerful framework for building Discord music bots',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/androz2091/discord-player`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://discord-player.netlify.app`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'canvacord',
+    description: 'A simple image manipulation utility for beginners',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/${githubName}/canvacord`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://canvacord.js.org`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'youtube-sr',
+    description: 'A simple package to make youtube search',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/${githubName}/yoututbe-sr`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://npm.im/yoututbe-sr`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'soundcloud-scraper',
+    description: 'Get data from soundcloud easily',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/${githubName}/soundcloud-scraper`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://soundcloud-scraper.js.org`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'minimailer',
+    description: 'Cross platform desktop app to test emails of your application',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/neplextech/minimailer`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://github.com/neplextech/minimailer`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'yukitoki',
+    description: 'Documentation rendering website written in svelte',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/cesiumlabs/yukitoki`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://yukitoki.netlify.app`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
+    )
+  },
+  {
+    name: 'emoji-api',
+    description: 'Simple emoji api',
+    links: (
+      <div className="flex flex-row space-x-3 items-center w-full mt-4">
+        <Button rounded link={`https://github.com/${githubName}/emoji-api`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <SiGithub className="mr-2 h-5 w-5" /> GitHub
+          </span>
+        </Button>
+        <Button rounded variant="gray" link={`https://npm.im/emoji-api`} newtab>
+          <span className="flex flex-row space-x-5 items-center">
+            <MdWeb className="mr-2 h-5 w-5" /> Website
+          </span>
+        </Button>
+      </div>
     )
   }
 ];
