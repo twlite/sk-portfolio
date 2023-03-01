@@ -18,12 +18,12 @@ export function ContactForm() {
   });
 
   return (
-    <motion.section variants={itemVariant} className="text-light py-20 lg:py-[120px] overflow-hidden relative z-10">
+    <motion.section variants={itemVariant} className="text-light py-5 lg:py-[120px] overflow-hidden relative z-10">
       <div className="container">
         <div className="flex flex-wrap lg:justify-between -mx-4">
           <div className="w-full lg:w-1/2 xl:w-6/12 px-4">
             <div className="max-w-[570px] mb-12 lg:mb-0">
-              <motion.span variants={itemVariant} className="block mb-4 text-base text-red font-semibold">
+              <motion.span variants={itemVariant} className="block mb-4 text-base text-gray font-semibold">
                 Get in touch
               </motion.span>
               <motion.h2

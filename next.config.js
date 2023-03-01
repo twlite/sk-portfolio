@@ -3,8 +3,23 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'avatars.githubusercontent.com',
+        port: '',
+        pathname: '/**'
+      }
+    ]
+  },
   async redirects() {
     return [
+      {
+        source: '/blog',
+        permanent: true,
+        destination: process.env.NEXT_PUBLIC_BLOG_URL
+      },
       {
         source: '/github',
         permanent: true,
