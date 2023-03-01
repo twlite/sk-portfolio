@@ -35,7 +35,11 @@ export const navLinks = [
   { name: 'Projects', link: '/projects' },
   { name: 'Contact', link: '/contact' },
   { name: 'Resume', link: '/resume' },
-  { name: 'Blog', link: '/blog' }
+  {
+    name: 'Blog',
+    link: '/blog',
+    external: !!process.env.NEXT_PUBLIC_BLOG_URL?.startsWith('http')
+  }
 ] as const;
 
 export const Education = [

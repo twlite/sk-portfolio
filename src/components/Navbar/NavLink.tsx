@@ -3,14 +3,16 @@ import { twMerge } from 'tailwind-merge';
 
 interface IProps {
   name: string;
-  link: string;
+  link?: string;
   active?: boolean;
+  external?: boolean;
 }
 
 export function NavbarLink(props: IProps) {
   return (
     <Link
-      href={props.link}
+      href={props.link!}
+      target={props.external ? '_blank' : ''}
       className="group cursor-pointer font-semibold text-red no-underline transition ease-in duration-300"
     >
       {props.name}
@@ -27,7 +29,8 @@ export function NavbarLink(props: IProps) {
 export function NavbarLinkMobile(props: IProps) {
   return (
     <Link
-      href={props.link}
+      href={props.link!}
+      target={props.external ? '_blank' : ''}
       className={twMerge(
         'lg:hidden p-3 w-full rounded-md cursor-pointer font-semibold no-underline transition ease-in duration-300',
         props.active
