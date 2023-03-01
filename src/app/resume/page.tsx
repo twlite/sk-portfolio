@@ -11,11 +11,11 @@ export default function Resume() {
     <motion.div initial="hidden" animate="visible">
       <Navbar />
       <div className="px-5 lg:px-12 mb-5">
-        <div className="flex lg:flex-row lg:space-x-5 flex-col-reverse items-center mt-5">
+        <div className="flex lg:flex-row lg:space-x-5 flex-col-reverse items-center mt-10">
           <div>
             <motion.div variants={itemVariant} className="mt-6">
               <h3 className="text-light text-lg font-semibold">Name</h3>
-              <motion.div variants={itemVariant} className="bg-darkGray p-3 rounded-md w-full lg:w-1/2">
+              <motion.div variants={itemVariant} className="bg-darkGray p-3 rounded-md lg:w-[80%] w-full">
                 <h1 className="text-red text-xl font-semibold">{fullName}</h1>
               </motion.div>
             </motion.div>
@@ -23,14 +23,14 @@ export default function Resume() {
               <h3 className="text-light text-lg font-semibold">About Me</h3>
               <motion.div
                 variants={itemVariant}
-                className="bg-darkGray p-3 rounded-md w-full lg:w-1/2 text-lg text-light font-semibold"
+                className="bg-darkGray p-3 rounded-md lg:w-[80%] w-full text-lg text-light font-semibold"
               >
                 <p className="opacity-90">
                   Hi, I am a student and a self-taught full stack developer from Nepal, active since August of 2018.
                 </p>
                 <p className="opacity-90">
                   I love experimenting with my ideas all the time, which usually turns out as another open source
-                  project of mine. I am a proficient in JavaScript programming.
+                  project of mine.
                 </p>
               </motion.div>
             </motion.div>
