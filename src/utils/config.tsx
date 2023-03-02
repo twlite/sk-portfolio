@@ -323,12 +323,12 @@ export const Projects = [
     description: 'A simple package to make youtube search',
     links: (
       <div className="flex flex-row space-x-3 items-center w-full mt-4">
-        <Button rounded link={`https://github.com/${githubName}/yoututbe-sr`} newtab>
+        <Button rounded link={`https://github.com/${githubName}/youtube-sr`} newtab>
           <span className="flex flex-row space-x-5 items-center">
             <SiGithub className="mr-2 h-5 w-5" /> GitHub
           </span>
         </Button>
-        <Button rounded variant="gray" link={`https://npm.im/yoututbe-sr`} newtab>
+        <Button rounded variant="gray" link={`https://npm.im/youtube-sr`} newtab>
           <span className="flex flex-row space-x-5 items-center">
             <MdWeb className="mr-2 h-5 w-5" /> Website
           </span>
