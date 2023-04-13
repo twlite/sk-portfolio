@@ -29,6 +29,7 @@ export const discordId = process.env.NEXT_PUBLIC_DISCORD_ID!;
 export const country = process.env.NEXT_PUBLIC_COUNTRY_NAME!;
 export const brandName = process.env.NEXT_PUBLIC_BRAND_NAME!;
 export const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL!;
+export const AvatarURL = `https://avatars.githubusercontent.com/${githubName}`;
 export const websiteDescription = `Hi, my name is ${fullName}. I am a full stack developer from ${country} who also loves doing open source projects.`;
 export const themeColor = '#ED653A';
 export const favIcon = '/favicon.ico';
@@ -94,7 +95,7 @@ export const WorkExp = [
             <a href="https://git-scm.com" target="_blank" rel="noreferrer">
               <SiGit
                 title="Git"
-                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-red"
+                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-primary"
               />
             </a>
             <a href="https://vercel.com" target="_blank" rel="noreferrer">
@@ -180,7 +181,7 @@ export const WorkExp = [
             <a href="https://cloudflare.com" target="_blank" rel="noreferrer">
               <SiCloudflare
                 title="Cloudflare"
-                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-red"
+                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-primary"
               />
             </a>
             <a href="https://nodejs.org" target="_blank" rel="noreferrer">
@@ -229,7 +230,7 @@ export const WorkExp = [
             <a href="https://jestjs.io" target="_blank" rel="noreferrer">
               <SiJest
                 title="Jest"
-                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-red"
+                className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-primary"
               />
             </a>
             <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">

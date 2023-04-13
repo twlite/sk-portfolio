@@ -18,7 +18,7 @@ export function Button(props: IProps) {
 
   const className =
     variant === 'primary'
-      ? 'bg-red hover:bg-darkRed text-white'
+      ? 'bg-primary hover:bg-darker text-white'
       : variant === 'secondary'
       ? 'bg-transparent text-light hover:text-white'
       : variant === 'info'

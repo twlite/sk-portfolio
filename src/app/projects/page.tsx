@@ -11,7 +11,7 @@ export default function ProjectsPage() {
       <Navbar />
       <div className="px-5 lg:px-12 mb-5">
         <motion.div variants={itemVariant} className="mt-6">
-          <h3 className="text-red text-3xl font-semibold text-center my-10">My Projects</h3>
+          <h3 className="text-primary text-3xl font-semibold text-center my-10">My Projects</h3>
           <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-3">
             {Projects.map((m, i) => (
               <Card subtitle={m.description} title={m.name} key={i}>

@@ -27,7 +27,7 @@ export function Hero() {
           <p className="text-gray text-2xl font-semibold">hello!</p>
           <h1 className="text-light text-3xl lg:text-5xl font-bold">
             I{"'"}m{' '}
-            <motion.span className="text-red" variants={itemVariant}>
+            <motion.span className="text-primary" variants={itemVariant}>
               {fullName}
             </motion.span>
             ,

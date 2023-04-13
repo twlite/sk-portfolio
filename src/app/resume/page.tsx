@@ -2,7 +2,7 @@
 
 import { Card } from '@/components/Card';
 import { Navbar } from '@/components/Navbar';
-import { Education, fullName, githubName, itemVariant, WorkExp } from '@/utils/config';
+import { AvatarURL, Education, fullName, githubName, itemVariant, WorkExp } from '@/utils/config';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -16,7 +16,7 @@ export default function Resume() {
             <motion.div variants={itemVariant} className="mt-6">
               <h3 className="text-light text-lg font-semibold">Name</h3>
               <motion.div variants={itemVariant} className="bg-darkGray p-3 rounded-md lg:w-[80%] w-full">
-                <h1 className="text-red text-xl font-semibold">{fullName}</h1>
+                <h1 className="text-primary text-xl font-semibold">{fullName}</h1>
               </motion.div>
             </motion.div>
             <motion.div variants={itemVariant} className="mt-6">
@@ -37,9 +37,9 @@ export default function Resume() {
           </div>
           <motion.div variants={itemVariant}>
             <Image
-              src={`https://avatars.githubusercontent.com/${githubName}`}
+              src={AvatarURL}
               alt="avatar"
-              className="rounded-full border-4 border-red shadow-lg bounce"
+              className="rounded-full border-4 border-primary shadow-lg bounce"
               height={256}
               width={256}
               draggable="false"

@@ -38,7 +38,7 @@ export function Technologies() {
         <motion.a variants={itemVariant} href="https://git-scm.com" target="_blank" rel="noreferrer">
           <SiGit
             title="Git"
-            className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-red"
+            className="transition ease-in duration-300 h-7 w-7 cursor-pointer text-gray hover:text-primary"
           />
         </motion.a>
         <motion.a variants={itemVariant} href="https://vercel.com" target="_blank" rel="noreferrer">

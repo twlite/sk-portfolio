@@ -29,7 +29,7 @@ export function ContactForm() {
               <motion.h2
                 variants={itemVariant}
                 className="
-                  text-red
+                  text-primary
                   mb-6
                   uppercase
                   font-bold
@@ -89,7 +89,7 @@ export function ContactForm() {
                         border border-[#f0f0f0]
                         outline-none
                         focus-visible:shadow-none
-                        focus:border-red
+                        focus:border-primary
                         text-dark
                         "
                   />
@@ -116,7 +116,7 @@ export function ContactForm() {
                         border border-[#f0f0f0]
                         outline-none
                         focus-visible:shadow-none
-                        focus:border-red
+                        focus:border-primary
                         text-dark
                         "
                   />
@@ -144,7 +144,7 @@ export function ContactForm() {
                         resize-none
                         outline-none
                         focus-visible:shadow-none
-                        focus:border-red
+                        focus:border-primary
                         text-dark
                         "
                   ></motion.textarea>
@@ -156,9 +156,9 @@ export function ContactForm() {
                     className="
                         w-full
                         text-white
-                        bg-red
+                        bg-primary
                         rounded
-                        border border-red
+                        border border-primary
                         p-3
                         transition
                         hover:bg-opacity-90
@@ -176,138 +176,210 @@ export function ContactForm() {
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 31.9993 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 31.9993 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 31.9993 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="31.9993" cy="88" r="1.66667" transform="rotate(180 31.9993 88)" className="fill-red" />
+                    <circle
+                      cx="31.9993"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="31.9993"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 31.9993 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="31.9993" cy="45" r="1.66667" transform="rotate(180 31.9993 45)" className="fill-red" />
-                    <circle cx="31.9993" cy="16" r="1.66667" transform="rotate(180 31.9993 16)" className="fill-red" />
-                    <circle cx="31.9993" cy="59" r="1.66667" transform="rotate(180 31.9993 59)" className="fill-red" />
+                    <circle
+                      cx="31.9993"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="31.9993"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 31.9993 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 31.9993 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 17.3333 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 17.3333 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 17.3333 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="17.3333" cy="88" r="1.66667" transform="rotate(180 17.3333 88)" className="fill-red" />
+                    <circle
+                      cx="17.3333"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="17.3333"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 17.3333 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="17.3333" cy="45" r="1.66667" transform="rotate(180 17.3333 45)" className="fill-red" />
-                    <circle cx="17.3333" cy="16" r="1.66667" transform="rotate(180 17.3333 16)" className="fill-red" />
-                    <circle cx="17.3333" cy="59" r="1.66667" transform="rotate(180 17.3333 59)" className="fill-red" />
+                    <circle
+                      cx="17.3333"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="17.3333"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 17.3333 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 17.3333 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 2.66536 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 2.66536 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 2.66536 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="2.66536" cy="88" r="1.66667" transform="rotate(180 2.66536 88)" className="fill-red" />
+                    <circle
+                      cx="2.66536"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="2.66536"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 2.66536 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="2.66536" cy="45" r="1.66667" transform="rotate(180 2.66536 45)" className="fill-red" />
-                    <circle cx="2.66536" cy="16" r="1.66667" transform="rotate(180 2.66536 16)" className="fill-red" />
-                    <circle cx="2.66536" cy="59" r="1.66667" transform="rotate(180 2.66536 59)" className="fill-red" />
+                    <circle
+                      cx="2.66536"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="2.66536"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 2.66536 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 2.66536 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                   </svg>
                 </span>
@@ -318,368 +390,560 @@ export function ContactForm() {
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 104.999 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="104.999"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 104.999 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="104.999"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 104.999 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="104.999" cy="88" r="1.66667" transform="rotate(180 104.999 88)" className="fill-red" />
+                    <circle
+                      cx="104.999"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 104.999 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="104.999"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 104.999 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="104.999" cy="45" r="1.66667" transform="rotate(180 104.999 45)" className="fill-red" />
-                    <circle cx="104.999" cy="16" r="1.66667" transform="rotate(180 104.999 16)" className="fill-red" />
-                    <circle cx="104.999" cy="59" r="1.66667" transform="rotate(180 104.999 59)" className="fill-red" />
+                    <circle
+                      cx="104.999"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 104.999 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="104.999"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 104.999 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="104.999"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 104.999 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="104.999"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 104.999 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="104.999"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 104.999 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="90.3333"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 90.3333 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="90.3333"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 90.3333 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="90.3333"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 90.3333 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="90.3333" cy="88" r="1.66667" transform="rotate(180 90.3333 88)" className="fill-red" />
+                    <circle
+                      cx="90.3333"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 90.3333 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="90.3333"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 90.3333 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="90.3333" cy="45" r="1.66667" transform="rotate(180 90.3333 45)" className="fill-red" />
-                    <circle cx="90.3333" cy="16" r="1.66667" transform="rotate(180 90.3333 16)" className="fill-red" />
-                    <circle cx="90.3333" cy="59" r="1.66667" transform="rotate(180 90.3333 59)" className="fill-red" />
+                    <circle
+                      cx="90.3333"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 90.3333 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="90.3333"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 90.3333 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="90.3333"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 90.3333 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="90.3333"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 90.3333 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="90.3333"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 90.3333 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="75.6654"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 75.6654 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 31.9993 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="75.6654"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 75.6654 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 31.9993 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="75.6654"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 75.6654 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 31.9993 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="75.6654" cy="88" r="1.66667" transform="rotate(180 75.6654 88)" className="fill-red" />
-                    <circle cx="31.9993" cy="88" r="1.66667" transform="rotate(180 31.9993 88)" className="fill-red" />
+                    <circle
+                      cx="75.6654"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 75.6654 88)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="75.6654"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 75.6654 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 31.9993 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="75.6654" cy="45" r="1.66667" transform="rotate(180 75.6654 45)" className="fill-red" />
-                    <circle cx="31.9993" cy="45" r="1.66667" transform="rotate(180 31.9993 45)" className="fill-red" />
-                    <circle cx="75.6654" cy="16" r="1.66667" transform="rotate(180 75.6654 16)" className="fill-red" />
-                    <circle cx="31.9993" cy="16" r="1.66667" transform="rotate(180 31.9993 16)" className="fill-red" />
-                    <circle cx="75.6654" cy="59" r="1.66667" transform="rotate(180 75.6654 59)" className="fill-red" />
-                    <circle cx="31.9993" cy="59" r="1.66667" transform="rotate(180 31.9993 59)" className="fill-red" />
+                    <circle
+                      cx="75.6654"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 75.6654 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="75.6654"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 75.6654 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="75.6654"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 75.6654 59)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="31.9993"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 31.9993 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="75.6654"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 75.6654 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 31.9993 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="75.6654"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 75.6654 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="31.9993"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 31.9993 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="60.9993"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 60.9993 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 17.3333 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="60.9993"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 60.9993 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 17.3333 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="60.9993"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 60.9993 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 17.3333 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="60.9993" cy="88" r="1.66667" transform="rotate(180 60.9993 88)" className="fill-red" />
-                    <circle cx="17.3333" cy="88" r="1.66667" transform="rotate(180 17.3333 88)" className="fill-red" />
+                    <circle
+                      cx="60.9993"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 60.9993 88)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="60.9993"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 60.9993 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 17.3333 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="60.9993" cy="45" r="1.66667" transform="rotate(180 60.9993 45)" className="fill-red" />
-                    <circle cx="17.3333" cy="45" r="1.66667" transform="rotate(180 17.3333 45)" className="fill-red" />
-                    <circle cx="60.9993" cy="16" r="1.66667" transform="rotate(180 60.9993 16)" className="fill-red" />
-                    <circle cx="17.3333" cy="16" r="1.66667" transform="rotate(180 17.3333 16)" className="fill-red" />
-                    <circle cx="60.9993" cy="59" r="1.66667" transform="rotate(180 60.9993 59)" className="fill-red" />
-                    <circle cx="17.3333" cy="59" r="1.66667" transform="rotate(180 17.3333 59)" className="fill-red" />
+                    <circle
+                      cx="60.9993"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 60.9993 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="60.9993"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 60.9993 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="60.9993"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 60.9993 59)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="17.3333"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 17.3333 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="60.9993"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 60.9993 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 17.3333 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="60.9993"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 60.9993 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="17.3333"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 17.3333 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="46.3333"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 46.3333 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="132"
                       r="1.66667"
                       transform="rotate(180 2.66536 132)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="46.3333"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 46.3333 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="117.333"
                       r="1.66667"
                       transform="rotate(180 2.66536 117.333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="46.3333"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 46.3333 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="102.667"
                       r="1.66667"
                       transform="rotate(180 2.66536 102.667)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="46.3333" cy="88" r="1.66667" transform="rotate(180 46.3333 88)" className="fill-red" />
-                    <circle cx="2.66536" cy="88" r="1.66667" transform="rotate(180 2.66536 88)" className="fill-red" />
+                    <circle
+                      cx="46.3333"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 46.3333 88)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="88"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 88)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="46.3333"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 46.3333 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="73.3333"
                       r="1.66667"
                       transform="rotate(180 2.66536 73.3333)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
-                    <circle cx="46.3333" cy="45" r="1.66667" transform="rotate(180 46.3333 45)" className="fill-red" />
-                    <circle cx="2.66536" cy="45" r="1.66667" transform="rotate(180 2.66536 45)" className="fill-red" />
-                    <circle cx="46.3333" cy="16" r="1.66667" transform="rotate(180 46.3333 16)" className="fill-red" />
-                    <circle cx="2.66536" cy="16" r="1.66667" transform="rotate(180 2.66536 16)" className="fill-red" />
-                    <circle cx="46.3333" cy="59" r="1.66667" transform="rotate(180 46.3333 59)" className="fill-red" />
-                    <circle cx="2.66536" cy="59" r="1.66667" transform="rotate(180 2.66536 59)" className="fill-red" />
+                    <circle
+                      cx="46.3333"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 46.3333 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="45"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 45)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="46.3333"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 46.3333 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="16"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 16)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="46.3333"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 46.3333 59)"
+                      className="fill-primary"
+                    />
+                    <circle
+                      cx="2.66536"
+                      cy="59"
+                      r="1.66667"
+                      transform="rotate(180 2.66536 59)"
+                      className="fill-primary"
+                    />
                     <circle
                       cx="46.3333"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 46.3333 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="30.6666"
                       r="1.66667"
                       transform="rotate(180 2.66536 30.6666)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="46.3333"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 46.3333 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                     <circle
                       cx="2.66536"
                       cy="1.66665"
                       r="1.66667"
                       transform="rotate(180 2.66536 1.66665)"
-                      className="fill-red"
+                      className="fill-primary"
                     />
                   </svg>
                 </span>
